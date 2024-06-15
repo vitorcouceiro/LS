@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto ;
+}
+  
+.container {
+    text-align: center;
+}
+/* Estilos CSS para o tabuleiro */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .board .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  /* Estilos CSS para o tabuleiro mestre */
+  .master-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    border: 2px solid black; /* Adiciona uma borda preta */
+    padding: 20px; /* Adiciona um espaçamento interno */
+  }
+  
+  .master-board .board {
+    border: 2px solid #000;
+    background-color: #e8e8e8;
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos CSS para as células quando são selecionadas */
+  .board .cell.selected {
+    background-color: #ffd700;
+  }
+  
+  /* Estilos CSS para as células quando o jogador X ganha */
+  .board .cell.x-winner {
+    background-color: #62b9e3;
+    color: #fff;
+  }
+  
+  /* Estilos CSS para as células quando o jogador O ganha */
+  .board .cell.o-winner {
+    background-color: #f58a8a;
+    color: #fff;
+  }
+  

@@ -1,0 +1,86 @@
+.container 
+{
+  display: flex;
+}
+
+.user-infoMultiPlayer 
+{
+  margin-bottom: 20px;
+}
+
+.user-infoMultiPlayer .name-time-container 
+{
+  display: flex;
+}
+
+.user-infoMultiPlayer .user-name-box,
+.user-time-box 
+{
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.user-infoMultiPlayer .user-name 
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-infoMultiPlayer .user-time 
+{
+  font-size: 20px;
+}
+
+.user-infoMultiPlayer .user-box 
+{
+  height: 30px;
+  background-color: #e9e9e9;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.messageX 
+{
+  font-size: 18px;
+  text-align: center;
+  margin-top:30px;
+  margin-left: 20px;
+}
+
+.playerX 
+{
+  font-weight: bold;
+  color: red;
+  font-size: 32px;
+}
+
+.messageO 
+{
+  font-size: 18px;
+  text-align: center;
+  margin-top:30px;
+  margin-left: 20px;
+}
+
+.playerO 
+{
+  font-weight: bold;
+  color: blue;
+  font-size: 32px;
+}
+
+.playerXcolor
+{
+  color:red;
+  font-size:20px;
+}
+.playerOcolor
+{
+  color:blue;
+  font-size:20px;
+}

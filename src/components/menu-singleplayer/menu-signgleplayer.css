@@ -1,0 +1,43 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu .player-title {
+    font-size: 25px;
+    margin: 10px;
+    color:white;
+    
+}
+
+.menu .input-container {
+    display: flex;
+}
+
+.menu .input-container input {
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+
+.menu .input-container button {
+    padding: 10px 10px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.input-container.errorSingle input {
+    border: 2px solid red;
+    background-color: #feecec;
+    width: 180px;
+}
+  
